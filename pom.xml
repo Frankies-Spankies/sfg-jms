@@ -9,6 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>guru.springframework</groupId>
+	<groupId>guru.springframework</groupId>º
 	<artifactId>sfg-jms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sfg-jms</name>
@@ -24,7 +25,8 @@
 			<artifactId>spring-boot-starter-artemis</artifactId>
 		</dependency>
 
-		<dependency>
+<!--		ACTIVEMQ EMBEBIDO-->
+<!--		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>artemis-server</artifactId>
 		</dependency>
@@ -32,7 +34,7 @@
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>artemis-jms-server</artifactId>
-		</dependency>
+		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
